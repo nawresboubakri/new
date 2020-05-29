@@ -1,0 +1,42 @@
+
+@import"tools/fontawsome/font-awsome";
+.vote{
+	width: 350px;
+	margin: 50px 0;
+	text-align: right;
+	float: right;
+}
+.vote_bar{
+	display: inline-block;
+	width: 100%;
+	height : 4px;
+	background-color: #f25648;
+
+}
+.vote_progress{
+height: 4px;
+width: 0%;
+background-color: #63b96b;
+
+}
+.vote_btns{
+	margin-top: 10px;
+	text-align: right; 
+}
+.vote_btn{
+	border: none;
+	padding: 0;
+	margin:0 0 0 10px;
+	display:inline-block;
+	
+	cursor: pointer;
+	background: transparent;
+	transition: color 0.3s; 
+}
+.vote_like:hover{
+	color: #63b96b;
+}
+
+.vote_dislike:hover{
+	color:#f25648;
+}
